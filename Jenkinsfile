@@ -27,7 +27,7 @@ pipeline {
 			sendNotificationToCDD appName: 'CDD-Training-DEV', 
 					appVersion:  "${env.BRANCH_NAME}", 
 					gitCommit: "${env.GIT_COMMIT}",
-					gitPrevSuccessfulCommit: "${env.GIT_PREVIOUS_SUCCESSFUL_COMMIT}",
+					gitPrevSuccessfulCommit: 'Assaf',
 					overrideCDDConfig: [
 							customApiKey: 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6InN1cGVydXNlckBjYS5jb20iLCJ0ZW5hbnRJZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIsImVtYWlsIjpudWxsLCJmaXJzdE5hbWUiOm51bGwsImxhc3ROYW1lIjpudWxsLCJyb2xlcyI6bnVsbCwidXNlcklkIjoxLCJqdGkiOiI1NDA5MzM2Yi05NTNjLTRlMDAtYjMxNC0zODUxZmQ5ZjRjMmYiLCJleHAiOjE1NTk0Nzc5NjR9.hFRz6l1lwdj15_PxHi5IT2YmxZ6p3Kchw_zn1y4UAuruICn7jhwvvu0tKT7TfdsDUw9DtLbCoVV5MJ1fp7ez-g',
 							customProxyPassword: '',
