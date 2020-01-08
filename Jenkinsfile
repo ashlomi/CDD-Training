@@ -28,6 +28,7 @@ pipeline {
 					appVersion:  "${env.BRANCH_NAME}", 
 					gitCommit: "${ env.GIT_COMMIT }",
     					gitPrevSuccessfulCommit: "${ env.GIT_PREVIOUS_SUCCESSFUL_COMMIT }",
+					overrideCDDConfig: [],
 					releaseTokens: '{}'
 		}
 	}
