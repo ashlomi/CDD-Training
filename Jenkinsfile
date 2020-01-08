@@ -26,7 +26,7 @@ pipeline {
 		
 					echo "${env.BRANCH_NAME}"
 					echo "${env.GIT_COMMIT}"
-					echo ${env.GIT_PREVIOUS_SUCCESSFUL_COMMIT}"
+					echo "${env.GIT_PREVIOUS_SUCCESSFUL_COMMIT}"
 		}
 	}
 }
