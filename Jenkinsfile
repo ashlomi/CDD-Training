@@ -15,7 +15,7 @@ pipeline {
         }
         stage("Publish to Nexus") {
             steps {
-			  echo "*** nexusVersion"       
+			  echo "*** nexusVersion*****"       
 			}
 		}
 	}		
