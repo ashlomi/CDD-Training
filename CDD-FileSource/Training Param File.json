@@ -2,16 +2,16 @@
 "parameters": [
 		{
 			"name": "ReleaseVersion",
-			"value": "Q1V1.2"
+			"value": "Q22020"
 		},
 		{
 			"name": "AppVersion",
-			"value": "V12.40"
+			"value": "RelQ42020"
 		},
 		
 		{
 			"name": "ReleaseName",
-			"value": "Banking-FY19Q3"
+			"value": "Web Banking"
 		}
 	],
 	"reference": {
